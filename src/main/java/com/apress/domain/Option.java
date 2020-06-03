@@ -7,7 +7,6 @@ import javax.persistence.Id;
 
 @Entity
 public class Option {
-    
     @Id
     @GeneratedValue
     @Column(name="OPTION_ID")
